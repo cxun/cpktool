@@ -1799,7 +1799,7 @@ int cpktool_get_identity_metadata(const char *id, void *meta)
         return 0;
 }
 
-int cpktool_get_identity_init(const char *template, int flags)
+int cpktool_get_identity_init(const char *ptemplate, int flags)
 {
         return 0;
 }

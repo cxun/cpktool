@@ -68,7 +68,7 @@ int   cpktool_validate_identity(const char *id);
 int   cpktool_revoke_identity(const char *id, int reason);
 int   cpktool_get_identity_state(const char *id);
 int   cpktool_get_identity_metadata(const char *id, void *meta);
-int   cpktool_get_identity_init(const char *template, int flags);
+int   cpktool_get_identity_init(const char *ptemplate, int flags);
 int   cpktool_get_identity_next();
 int   cpktool_get_identity_exit();
 char *cpktool_get_current_identity(const char *id);
